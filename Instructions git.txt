@@ -1,9 +1,0 @@
-touch "nom du fichier"           => création du fichier en question
-git init                         => création d'un repository git (fichier git): permet l'envoie des infos sur github (ne pas toucher le dossier)
-git add "nom du fichier"         => ajout du fichier à la liste des fichiers à sauvegarder (présauvegarde)
-git add .                        => ajout de tous les fichiers à la présauvegarde
-git add *ext                     => ajoute tous les fichiers avec l'extension précisée à la présauvegarde
-git rm --cached "nom du fichier" => retire le fichier de la présauvegarde (si absence de tirets: suppression complète du fichier)
-git rm -r --cached .             => retire récursivements tous les fichiers de la présauvegarde
-git status                       => permet de voir tous les fichiers ajoutés à la présauvegarde
-
